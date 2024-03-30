@@ -89,6 +89,8 @@ gem 'redis', '~> 4'
 gem 'sentry-ruby'
 gem 'sentry-rails'
 
+gem 'rack-cors'
+
 group :development do
   # Bullet for debugging
   gem 'bullet', group: 'development'
